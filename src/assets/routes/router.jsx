@@ -1,6 +1,8 @@
 import React from 'react';
 import { createBrowserRouter, Navigate } from 'react-router-dom';
 import Home from '../../layouts/Home';
+import Pages from '../../components/Pages';
+import CatageroyNews from '../../components/Pages/CatageroyNews';
 
 
 const router = createBrowserRouter([
@@ -8,13 +10,15 @@ const router = createBrowserRouter([
         path: '/',
         element: <Home></Home>,
         children:[
-            // {
-            //     path:'',
-            //     element: <Navigate to="/category/01">  </Navigate>
-            // },
+            {
+                path:'',
+                element: <Navigate to="/category/01">  </Navigate>
+            },
             {
                 path:'/category/:id',
-                element: <h2>I am form category</h2>
+                element: <CatageroyNews></CatageroyNews>,
+                loader:({params})=>fetch(`https://openapi.programming-hero.com/api/news/category/${params.id}`)
+                
             }
         ],
         
