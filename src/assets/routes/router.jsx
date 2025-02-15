@@ -4,6 +4,8 @@ import Home from '../../layouts/Home';
 import Pages from '../../components/Pages';
 import CatageroyNews from '../../components/Pages/CatageroyNews';
 import AuthLayout from '../../layouts/AuthLayout';
+import Login from '../../components/Pages/Login';
+import Register from '../../components/Pages/Register';
 
 
 const router = createBrowserRouter([
@@ -33,10 +35,10 @@ const router = createBrowserRouter([
         element: <AuthLayout></AuthLayout>,
         children:[
             {path:'/auth/login',
-                element: <h2>Login layout</h2>
+                element: <Login></Login>
             },
             {path:'/auth/register',
-                element: <h2>register layout</h2>
+                element: <Register></Register>
             }
         ]
     },
