@@ -1,14 +1,20 @@
 import React from 'react';
 import Header from '../components/Header';
 import LatestNews from '../components/LatestNews';
+import Navbar from '../components/Navbar';
 
 const Home = () => {
     return (
-        <div>
+        <div className='font-Poppins'>
             <header> <Header></Header></header>
             <section className='w-11/12 mx-auto'><LatestNews></LatestNews></section>
-            <nav></nav>
-            <main></main>
+           
+            <nav className='w-11/12 mx-auto py-2 '><Navbar ></Navbar></nav>
+            <main className='w-11/12 mx-auto pt-5 grid grid-cols-12 gap-3'>
+            <aside className='left col-span-3'>Left</aside>
+            <section className='col-span-6'>main</section>
+            <aside className='col-span-3'>right</aside>
+            </main>
         </div>
     );
 };
