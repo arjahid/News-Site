@@ -11,7 +11,7 @@ const NewsCard = ({ news }) => {
             </figure>
             <div className="card-body">
                 <div className="flex items-center gap-2">
-                    <img src={author.img} alt={author.name} className="w-10 h-10 rounded-full" />
+                    <img src={author.img} alt={author.name} className="w-10 h-10  rounded-full" />
                     <div>
                         <h5 className="font-semibold">{author.name}</h5>
                         <p className="text-xs text-gray-500">{author.published_date}</p>
