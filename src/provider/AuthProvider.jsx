@@ -6,31 +6,37 @@ export const AuthContext = createContext();
 
 const AuthProvider = ({ children }) => {
     const [user,setUser]=useState(null)
-    console.log('user',user)
+    const [loading,setLoading]=useState(true)
+   
    
 
     const createNewUser=(email,password)=>{
         return createUserWithEmailAndPassword(auth,email,password)
+        setLoading(true)
     }
     const loginUSer=(email,password)=>{
         return signInWithEmailAndPassword(auth,email,password)
+        setLoading(true)
     }
   
     const logOUt=()=>{
         return signOut(auth)
+        setLoading(true)
     }
   const authInfo = {
     createNewUser,
     setUser,
     user,
     logOUt,
-    loginUSer
+    loginUSer,
+    loading
 
     
   };
   useEffect(()=>{
     const unscribe= onAuthStateChanged(auth,(currentUSer)=>{
         setUser(currentUSer)
+        setLoading(false)
     })
     return ()=>{
         unscribe()

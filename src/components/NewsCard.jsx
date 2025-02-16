@@ -1,5 +1,6 @@
 import React from "react";
 import { FaEye, FaStar } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const NewsCard = ({ news }) => {
     const { title, author, rating, total_view, image_url, details } = news;
@@ -30,7 +31,7 @@ const NewsCard = ({ news }) => {
                     </div>
                 </div>
                 <div className="card-actions justify-end mt-3">
-                    <button className="btn btn-primary btn-sm">Read More</button>
+                    <Link to={`/news/${news._id}`} className="btn btn-primary btn-sm">Read More</Link>
                 </div>
             </div>
         </div>
