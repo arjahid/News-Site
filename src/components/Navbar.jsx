@@ -8,7 +8,7 @@ const Navbar = () => {
     console.log('hahah',user)
     return (
         <div className='flex justify-between items-center'>
-            <div>{user.name}</div>
+            <div></div>
             <div className="nav space-x-5">
                 <Link to='/'>Home</Link>
                 <Link to='/career'>Career</Link>
