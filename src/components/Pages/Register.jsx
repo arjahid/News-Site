@@ -1,9 +1,11 @@
-import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useContext, useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../provider/AuthProvider';
 
 const Register = () => {
     const {createNewUser,setUser}=useContext(AuthContext)
+    const [error,setError]=useState({ })
+    const navigate=useNavigate()
     
     const handleSignUp=(e)=>{
         e.preventDefault()
@@ -16,6 +18,10 @@ const Register = () => {
         const name=form.get('name');
         const email=form.get('email');
         const password=form.get('password');
+        if(password.length<6){
+            setError({...error,password:'Password must be at least 6 characters'})
+            return
+        }
         const photo=form.get('photo');
         console.log(name,email,password,photo)
         createNewUser(email,password)
@@ -23,6 +29,7 @@ const Register = () => {
             const user=result.user
             setUser(user)
             console.log(user)
+            navigate('/')
         })
         .catch(error=>{
             const errorCode = error.code;
@@ -59,6 +66,10 @@ const Register = () => {
             <span className="label-text">Password</span>
           </label>
           <input type="password" name='password' placeholder="password" className="input input-bordered" required />
+         {
+                error.password && <p className='text-red-500'>{error.password}</p>
+         }
+         
           <label className="label">
             <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
           </label>
