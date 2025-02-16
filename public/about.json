@@ -1,0 +1,41 @@
+[
+    {
+      "title": "About Us",
+      "description": "Welcome to Dragon News, your trusted source for the latest news and insights across various categories."
+    },
+    {
+      "mission": "Providing accurate and engaging news with in-depth analysis."
+    },
+    {
+      "values": [
+        "Integrity - Transparency in reporting.",
+        "Accuracy - Verified and well-researched information.",
+        "Innovation - Adapting to bring the best news experience.",
+        "Community - Engaging and fostering discussions."
+      ]
+    },
+    {
+      "team": [
+        {
+          "name": "John Doe",
+          "role": "Editor-in-Chief"
+        },
+        {
+          "name": "Jane Smith",
+          "role": "Senior Reporter"
+        },
+        {
+          "name": "Michael Brown",
+          "role": "Content Strategist"
+        }
+      ]
+    },
+    {
+      "contact": {
+        "email": "contact@yourwebsite.com",
+        "phone": "+123 456 7890",
+        "address": "123 News Street, City, Country"
+      }
+    }
+  ]
+  

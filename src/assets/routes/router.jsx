@@ -8,6 +8,8 @@ import Login from '../../components/Pages/Login';
 import Register from '../../components/Pages/Register';
 import NewsDetails from '../../components/Pages/NewsDetails';
 import PrivateRoute from './privateRoute';
+import Carrer from '../../components/Pages/Carrer';
+import About from '../../components/Pages/About';
 
 
 const router = createBrowserRouter([
@@ -48,6 +50,14 @@ const router = createBrowserRouter([
     {
         path:'*',
         element: <h2>404 layout</h2>
+    },
+    {
+        path:'/career',
+        element:<Carrer></Carrer>
+    },
+    {
+        path:'/about',
+        element:<About></About>
     }
 ])
 

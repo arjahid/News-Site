@@ -1,0 +1,113 @@
+[
+    {
+      "id": 1,
+      "title": "Top 10 High-Paying Tech Jobs in 2025",
+      "description": "Explore the highest-paying jobs in the tech industry, including AI specialists, cybersecurity analysts, and cloud engineers.",
+      "author": "John Doe",
+      "date": "2025-02-16",
+      "category": "Technology",
+      "tags": ["Tech Jobs", "Salary", "Career Growth"],
+      "image": "https://i.postimg.cc/sx9hg40n/top-view-laptop-with-glasses-diploma.jpg",
+      "url": "/career/high-paying-tech-jobs-2025"
+    },
+    {
+      "id": 2,
+      "title": "How to Write a Winning Resume in 2025",
+      "description": "A step-by-step guide to creating a professional resume that stands out to employers.",
+      "author": "Jane Smith",
+      "date": "2025-02-15",
+      "category": "Job Search",
+      "tags": ["Resume", "Job Hunt", "Tips"],
+      "image": "https://i.postimg.cc/sxtN3yqP/classmates-learning-together-group-study-session.jpg",
+      "url": "/career/winning-resume-guide"
+    },
+    {
+      "id": 3,
+      "title": "Best Online Courses to Boost Your Career",
+      "description": "Discover the top online courses that can help you gain new skills and advance in your career.",
+      "author": "Emily Johnson",
+      "date": "2025-02-14",
+      "category": "Education",
+      "tags": ["Online Courses", "Learning", "Career Growth"],
+      "image": "https://i.postimg.cc/76RBNwHv/smiley-woman-posing-her-desk-while-writing-something-down.jpg",
+      "url": "/career/best-online-courses"
+    },
+    {
+      "id": 4,
+      "title": "How to Negotiate a Higher Salary in Your Job",
+      "description": "Tips and strategies to successfully negotiate a better salary and benefits.",
+      "author": "Michael Brown",
+      "date": "2025-02-13",
+      "category": "Finance",
+      "tags": ["Salary Negotiation", "Career", "Money"],
+      "image": "https://i.postimg.cc/76RBNwHv/smiley-woman-posing-her-desk-while-writing-something-down.jpg",
+      "url": "/career/salary-negotiation-tips"
+    },
+    {
+      "id": 5,
+      "title": "Top Companies Hiring Remote Workers in 2025",
+      "description": "A list of companies offering remote job opportunities in different industries.",
+      "author": "Sophia Williams",
+      "date": "2025-02-12",
+      "category": "Remote Work",
+      "tags": ["Remote Jobs", "Work From Home", "Hiring"],
+      "image": "https://i.postimg.cc/76RBNwHv/smiley-woman-posing-her-desk-while-writing-something-down.jpg",
+      "url": "/career/top-remote-companies"
+    },
+    {
+      "id": 6,
+      "title": "Career Change in 2025: A Guide to Switching Fields",
+      "description": "How to transition into a new career field successfully, including skills to learn and networking strategies.",
+      "author": "David Lee",
+      "date": "2025-02-11",
+      "category": "Career Advice",
+      "tags": ["Career Change", "New Skills", "Networking"],
+      "image": "https://i.postimg.cc/sxtN3yqP/classmates-learning-together-group-study-session.jpg",
+      "url": "/career/switching-careers-guide"
+    },
+    {
+      "id": 7,
+      "title": "Freelancing vs Full-Time Job: Which is Better?",
+      "description": "A comparison of freelancing and full-time employment to help you decide the best career path for you.",
+      "author": "Olivia Martinez",
+      "date": "2025-02-10",
+      "category": "Career Choices",
+      "tags": ["Freelancing", "Full-Time Jobs", "Work-Life Balance"],
+      "image": "https://i.postimg.cc/sxtN3yqP/classmates-learning-together-group-study-session.jpg",
+      "url": "/career/freelancing-vs-fulltime"
+    },
+    {
+      "id": 8,
+      "title": "10 Soft Skills That Will Get You Hired in 2025",
+      "description": "Learn about the essential soft skills that employers are looking for in candidates.",
+      "author": "Daniel Clark",
+      "date": "2025-02-09",
+      "category": "Skills",
+      "tags": ["Soft Skills", "Employment", "Hiring"],
+      "image": "https://i.postimg.cc/sxtN3yqP/classmates-learning-together-group-study-session.jpg",
+      "url": "/career/soft-skills-for-jobs"
+    },
+    {
+      "id": 9,
+      "title": "LinkedIn Profile Optimization for Job Seekers",
+      "description": "Tips to enhance your LinkedIn profile and attract recruiters.",
+      "author": "Emma Garcia",
+      "date": "2025-02-08",
+      "category": "Networking",
+      "tags": ["LinkedIn", "Job Search", "Professional Branding"],
+      "image": "https://i.postimg.cc/76RBNwHv/smiley-woman-posing-her-desk-while-writing-something-down.jpg",
+      "url": "/career/linkedin-profile-tips"
+    },
+    {
+      "id": 10,
+      "title": "Work-Life Balance: How to Manage Job and Personal Life",
+      "description": "Strategies to maintain a healthy balance between work and personal life.",
+      "author": "James Wilson",
+      "date": "2025-02-07",
+      "category": "Work-Life",
+      "tags": ["Work-Life Balance", "Career", "Well-being"],
+      "image": "https://i.postimg.cc/sxtN3yqP/classmates-learning-together-group-study-session.jpg",
+      "url": "/career/work-life-balance-tips"
+    }
+  ]
+  
