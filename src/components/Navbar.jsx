@@ -5,7 +5,7 @@ import { AuthContext } from '../provider/AuthProvider';
 
 const Navbar = () => {
     const {user,logOUt}=useContext(AuthContext)
-    console.log('hahah',user)
+    
     const logOut=()=>{
         logOUt()
     }   
@@ -19,7 +19,14 @@ const Navbar = () => {
                 <Link to='/about'>About</Link>
             </div>
             <div className="login flex gap-2">
-                <img src={userIcon} alt="" />
+            {user && user.email ? (
+                    <div>
+                        <img className='w-10 rounded' src={user.photoURL} alt="User" />
+                        <span>{user.displayName}</span>
+                    </div>
+                ) : (
+                    <img src={userIcon} alt="User Icon" />
+                )}
                 {
                     user && user.email ? (
                         <button onClick={logOut} className='btn btn-neutral rounded-none'>Logout</button>
