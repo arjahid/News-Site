@@ -14,6 +14,7 @@ const About = () => {
     return (
         <div className='w-11/12 mx-auto pt-4'>
            <div className='bg-base-200 w-11/12 mx-auto'> <Navbar></Navbar></div>
+           <div>here is all</div>
            
             <div className='w-11/12 pl-4 mx-auto  pt-6'>
                 {data.map(item => (
